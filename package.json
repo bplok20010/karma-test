@@ -1,12 +1,13 @@
 {
     "name": "karma-example",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "karma config example project",
     "main": "src/index.js",
     "directories": {
         "test": "test"
     },
     "scripts": {
+        "release": "karma start --single-run && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags",
         "test": "karma start"
     },
     "keywords": [
