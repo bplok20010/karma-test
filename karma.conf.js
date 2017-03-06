@@ -4,7 +4,7 @@
 module.exports = function(config) {
     config.set({
         basePath: '',
-        frameworks: ['jasmine'],
+        frameworks: ['mocha', 'chai-sinon'],
         files: [
             'test/**/*.js'
         ],
