@@ -17,6 +17,8 @@ https://cnodejs.org/topic/538ed941c3ee0b5820889f66
 
 ## Usage
 
+`npm i -g karma-cli`
+
 `npm install`
 
 `npm test` or `npm run release`
